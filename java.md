@@ -1,37 +1,47 @@
 
-1. ## Java环境
+1. ### java环境
 
-jdk
+   >jdk
 
-1. 环境变量
+2. ### 环境变量
+
+   ```
    JAVA_HOME—D:\Java\jdk1.8.0_111
-
+   
    GRADLE_HOME—D:\gradle-4.4.1
-
+   
    GRADLE_USER_HOME—D:\GradleCaches(*设置一个目录，作为gradle的下载缓存目录*)
-
+   
    CLASSPATH—;.D:\Java\jdk1.8.0_111\bin;D:\Java\jdk1.8.0_111\lib\tools.jar
-
+   
    M2_HOME—D:\apache-maven-3.3.9(*设置为maven的安装目录*)
-
+   
    M2—D:\apache-maven-3.3.9\bin
-
+   
    spring.profiles.active=development 
+   ```
 
-2. Path
+3. ### Path
+
+   ```
    D:\Java\jdk1.8.0_111\bin 
-
+   
    D:\Java\jdk1.8.0_111\jre\bin 
-
+   
    D:\gradle-4.4.1\bin
-
+   
    D:\apache-maven-3.3.9\bin
-
+   
    测试命令：java -version、javac、gradle -v、mvn -version
+   ```
 
-3. 设置
+4. ### 设置
 
-   1. 可以在F:\maven\conf\settings.xml文件中的localRepository节点定义一个仓库缓存目录，如<localRepository>F:\maven-repository</localRepository> 
+   1. 可以在F:\maven\conf\settings.xml文件中的localRepository节点定义一个仓库缓存目录，如
+
+      ```
+      <localRepository>F:\maven-repository</localRepository> 
+      ```
 
    2. idea设置版权信息以及文件描述
       setting-file and code template
@@ -70,4 +80,6 @@ jdk
        * ${DATE} 1.0          ${USER}          Creation File
        */
       ```
+
+5. ### sss
 
