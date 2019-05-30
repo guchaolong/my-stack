@@ -1,22 +1,22 @@
 
 1. ### java环境
 
-   >jdk
+   >jdk1.8
 
 2. ### 环境变量
 
    ```
-   JAVA_HOME—D:\Java\jdk1.8.0_111
+   JAVA_HOME			D:\Java\jdk1.8.0_111
    
-   GRADLE_HOME—D:\gradle-4.4.1
+   GRADLE_HOME			D:\gradle-4.4.1
    
-   GRADLE_USER_HOME—D:\GradleCaches(*设置一个目录，作为gradle的下载缓存目录*)
+   GRADLE_USER_HOME	D:\GradleCaches(*设置一个目录，作为gradle的下载缓存目录*)
    
-   CLASSPATH—;.D:\Java\jdk1.8.0_111\bin;D:\Java\jdk1.8.0_111\lib\tools.jar
+   CLASSPATH			;.D:\Java\jdk1.8.0_111\bin;D:\Java\jdk1.8.0_111\lib\tools.jar
    
-   M2_HOME—D:\apache-maven-3.3.9(*设置为maven的安装目录*)
+   M2_HOME				D:\apache-maven-3.3.9(*设置为maven的安装目录*)
    
-   M2—D:\apache-maven-3.3.9\bin
+   M2					D:\apache-maven-3.3.9\bin
    
    spring.profiles.active=development 
    ```
